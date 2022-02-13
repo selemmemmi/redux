@@ -1,0 +1,45 @@
+.modalBtn {
+  display: inline-block;
+  text-decoration: none;
+  height: 45%;
+  width: 55%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  font-size: 20px;
+  color: #333;
+  font-family: "Russo One", sans-serif;
+  border: 1px solid #333;
+}
+.modalInput {
+  width: 90%;
+  padding: 3%;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.modalInput:focus {
+  outline: none;
+}
+.filter {
+  display: flex;
+  justify-content: center;
+  margin-top: 4%;
+}
+
+.filterBtn {
+  color: #fff;
+  background: transparent;
+  border: transparent;
+  cursor: pointer;
+  font-size: 25px;
+  margin: 0 16px;
+  font-weight: 900;
+  padding: 4px 20px;
+
+  transition: 0.5s;
+}
+.filterBtn:focus {
+  border-bottom: 2px solid #ff0057;
+}

@@ -1,0 +1,29 @@
+.addClass {
+  padding: 4% 4%;
+  width: 92%;
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #d8e3e7;
+}
+.newTask {
+  width: 70%;
+  height: 100%;
+  border: transparent;
+  border-radius: 40px 0 0 40px;
+  font-size: 36px;
+  padding: 0 3%;
+}
+.newTask:focus {
+  outline: none;
+}
+.addButton {
+  height: 100%;
+  padding: 0 6%;
+  font-size: 36px;
+  border: transparent;
+  background: #40394a;
+  color: #ffff;
+  cursor: pointer;
+}
